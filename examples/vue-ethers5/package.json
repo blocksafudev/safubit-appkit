@@ -1,0 +1,19 @@
+{
+  "name": "@examples/vue-ethers5",
+  "private": true,
+  "version": "1.0.6",
+  "scripts": {
+    "dev": "vite --port 3013",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@safubit/appkit-adapter-ethers5": "workspace:*",
+    "@safubit/appkit": "workspace:*",
+    "ethers": "5.7.2",
+    "vue": "3.4.3"
+  },
+  "devDependencies": {
+    "vite": "5.2.11",
+    "@vitejs/plugin-vue": "5.0.2"
+  }
+}

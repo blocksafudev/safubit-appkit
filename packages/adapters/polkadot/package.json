@@ -1,0 +1,22 @@
+{
+  "name": "@safubit/appkit-adapter-polkadot",
+  "version": "1.1.0",
+  "scripts": {
+    "build:clean": "rm -rf dist",
+    "build": "tsc --build tsconfig.build.json",
+    "watch": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "vitest run --dir tests --coverage.enabled=true --coverage.reporter=json --coverage.reporter=json-summary --coverage.reportOnFailure=true"
+  },
+  "dependencies": {
+    "@safubit/appkit": "workspace:*",
+    "@safubit/appkit-common": "workspace:*",
+    "@safubit/appkit-core": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "2.0.5",
+    "@vitest/coverage-v8": "2.0.5"
+  },
+  "private": "true"
+}
